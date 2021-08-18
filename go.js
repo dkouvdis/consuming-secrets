@@ -3,6 +3,8 @@ const fs = require("fs");
 const go = () => {
   const secrets = process.env.SECRETS_CONTEXT;
 
+  console.log(1, secrets);
+
   if (!secrets) {
     console.log("Missing SECRETS_CONTEXT");
   }
