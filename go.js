@@ -4,7 +4,8 @@ const go = () => {
   const secrets = process.env.SECRETS_CONTEXT;
 
   if (!secrets) {
-    console.log("Missing SECRETS_CONTEXT");
+    console.log("========== Missing SECRETS_CONTEXT ==========");
+    return;
   }
 
   const parsedSecrets = JSON.parse(secrets);
