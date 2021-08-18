@@ -22,11 +22,3 @@ jobs:
           cat .env
         env:
           SECRETS_CONTEXT: ${{ toJSON(secrets) }}
-
-      - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v2
-        with:
-          path: .
-          retention-days: 5
-
-      
