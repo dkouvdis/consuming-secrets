@@ -17,3 +17,5 @@ const go = () => {
     logger.write(`${key}=${value}\n`);
   }
 };
+
+go();
