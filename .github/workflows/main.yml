@@ -21,6 +21,6 @@ jobs:
           sleep 2
           cat .env
         env:
-          SECRETS_CONTEXT: {{ toJSON(secrets) }}
+          SECRETS_CONTEXT: ${{ toJSON(secrets) }}
 
       
