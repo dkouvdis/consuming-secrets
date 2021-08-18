@@ -14,9 +14,14 @@ const go = () => {
     flags: "a",
   });
 
+  console.log(".env file created");
+
   for (const [key, value] of Object.entries(parsedSecrets)) {
+    console.log(`${key} appending to file`);
     logger.write(`${key}=${value}\n`);
   }
+
+  console.log("Done...");
 };
 
 go();
