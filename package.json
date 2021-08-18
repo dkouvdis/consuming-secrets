@@ -1,0 +1,19 @@
+{
+  "name": "consuming-secrets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "go.js",
+  "scripts": {
+    "go": "node ./go.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkouvdis/consuming-secrets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkouvdis/consuming-secrets/issues"
+  },
+  "homepage": "https://github.com/dkouvdis/consuming-secrets#readme"
+}
