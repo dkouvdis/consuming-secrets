@@ -17,7 +17,7 @@ jobs:
 
       - name: Parse into .env file
         run: |
-          SECRETS_CONTEXT=$SECRETS_CONTEXT node go.js
+          SECRETS_CONTEXT=$SECRETS_CONTEXT node ./go.js
           sleep 2
           cat .env
         env:
